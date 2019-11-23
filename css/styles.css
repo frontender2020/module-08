@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 320px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/header_bg.jpg') no-repeat center / cover;
+    height: 540px;
+    padding-top: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.logo a {
+    display: block;
+    width: 178px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.registration a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.registration a:first-child {
+    
+}
+
+.registration a:last-child {
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+}
+
+h1.offer-title {
+    width: 292px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 19px;
+}
+
+p.offer-text {
+    width: 217px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 19px;
+}
+
+a.offer-btn {
+    text-decoration: none;
+    display: block;
+    width: 292px;
+    background-color: #ff4e50;
+    padding: 15px 50px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    margin: auto;
+    border: 2px solid transparent;
+    border-radius: 100px;
+}
+
+a.offer-btn:hover {
+    border: 2px solid #ff4e50;
+    color: #ff4e50;
+    background-color: #ffffff;
+    transition: all 0.2s linear;
+}
+
+a.offer-btn:focus {
+    outline: none;
+}
+
+/* section partners */
+
+.partners {
+    padding: 69px 0 57px 0;
+}
+
+h2.section-tile {
+    width: 270px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.partners-list {
+
+}
+
+.partner-item {
+    position: relative;
+    width: 220px;
+    margin: auto;
+    text-align: center;
+}
+
+.partner-item::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: block;
+    border: 4px solid #ffffff;
+     position: absolute;
+     top: 80px;
+     right: 45px;
+}
+
+.partner-item:first-child::before {
+    background: url('../img/icon_1.png') no-repeat center;
+    background-color: #ff4e50;
+}
+
+.partner-item:nth-child(2)::before {
+    background: url('../img/icon_2.png') no-repeat center;
+    background-color: #ffa507;
+}
+
+.partner-item:nth-child(3)::before {
+    background: url('../img/icon_3.png') no-repeat center;
+    background-color: #1cd7ad;
+}
+
+.partner-item:nth-child(4)::before {
+    background: url('../img/icon_4.png') no-repeat center;
+    background-color: #4e73db;
+}
+
+
+
+.partner-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.partner-image {
+ 
+}
+
+.partner-name {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.partner-desc {
+    color: #666666;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.partners-btn {
+    display: block;
+    width: 280px;
+    padding: 14px 0;
+    border: 2px solid #ff4e50;
+    border-radius: 100px;
+    background-color: #ffffff;
+    color: #ff4e50;
+    cursor: pointer;
+    color: #ff4e50;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.partners-btn:hover {
+    border: 2px solid #ff4e50;
+    background-color: #ff4e50;
+    color: #ffffff;
+    transition: all 0.2s linear;
+}
+
+.partners-btn:focus {
+    outline: none;
+}
+
+
+
+
+
