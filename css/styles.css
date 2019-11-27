@@ -275,6 +275,22 @@ h2.section-title {
         flex-basis: 50%;
     }
 
+    .partner-item:first-child {
+        order: 0;
+    }
+
+    .partner-item:nth-child(2) {
+        order: 2;
+    }
+
+    .partner-item:nth-child(3) {
+        order: 1;
+    }
+
+    .partner-item:last-child {
+        order: 3;
+    }
+
     .partner-item:not(:nth-child(-n + 2)) {
         /* margin-bottom: 0; */
     }
