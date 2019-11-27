@@ -290,10 +290,6 @@ h2.section-title {
     .partner-item:last-child {
         order: 3;
     }
-
-    .partner-item:not(:nth-child(-n + 2)) {
-        /* margin-bottom: 0; */
-    }
 }
 
 @media screen and (min-width: 940px) {
